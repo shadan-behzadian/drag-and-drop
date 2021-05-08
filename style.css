@@ -1,4 +1,5 @@
 .item {
+  top: 10px;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -77,9 +78,26 @@
 
 .container {
   background-color: lightgray;
-  width: 70%;
+  width: 700px;
   height: 300px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.outside {
+  opacity: 0.3;
+}
+
+.inside {
+  opacity: inherit;
+}
+
+.finalResults {
+  display: flex;
+  justify-content: space-between;
 }
